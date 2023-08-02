@@ -25,10 +25,11 @@
 "diff.delta.moved" = { fg = "diff_delta_moved" }
 "diff.minus" = { fg = "diff_minus" }
 
-"ui.cursor.insert" = { fg = "t2", bg = "highlight" }
-"ui.cursor.select" = { fg = "t2", bg = "highlight_two" }
-"ui.cursor" = { fg = "t1", bg = "highlight_three" }
-"ui.cursor.match" = { fg = "highlight", bg = "selection", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "highlight_three", bg = "t7", modifiers = ["bold"] }
+"ui.cursor.primary" = { fg = "t1", bg = "highlight_three" }
+"ui.cursor.primary.insert" = { fg = "t2", bg = "highlight" }
+"ui.cursor.primary.select" = { fg = "t2", bg = "highlight_two" }
+"ui.cursor.primary.match" = { fg = "highlight", bg = "selection", modifiers = ["bold"] }
 
 "ui.linenr" = { fg = "t3", bg = "t2" }
 "ui.linenr.selected" = { fg = "highlight_three", bg = "t2" }
